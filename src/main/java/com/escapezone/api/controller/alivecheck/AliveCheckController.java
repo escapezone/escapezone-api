@@ -6,12 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AliveCheckController {
-
     @GetMapping("/alive")
-    public ResponseEntity<String> AliveCheck(){
-        return ResponseEntity.ok("hello");
+    public void aliveCheck(){
     }
-
-
 
 }
