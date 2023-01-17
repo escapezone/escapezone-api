@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://local.escapezone.com:3000")
+//@CrossOrigin(origins = "http://local.escapezone.com:3000")
 @Slf4j
 public class AliveCheckController {
     @GetMapping("/alive")
